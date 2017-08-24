@@ -11,11 +11,13 @@ This template integrates the following:
 
 Instructions:
 
-1) ./Types/types.js: Build the tables 'Supplier' and 'Company' on your MySQL server,
+1) clone and npm install
+
+2) ./Types/types.js: Build the tables 'Supplier' and 'Company' on your MySQL server,
 or change the Types according to your own database structure.
 
-2) ./Connectors/mysql.js: Enter your db credentials.
+3) ./Connectors/mysql.js: Enter your db credentials.
 
-3) Run babel-node server.js
+4) Run babel-node server.js
 
-4) Browse to http://localhost:3000/graphql to try out your queries - enojy!
+5) Browse to http://localhost:3000/graphql to try out your queries - enojy!
